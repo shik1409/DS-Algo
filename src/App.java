@@ -1,6 +1,3 @@
-import com.algorithms.recursion.Factorial;
-import com.algorithms.recursion.Fibonacci;
-import com.algorithms.recursion.RecursionTypes;
 import com.algorithms.sorting.BubbleSort;
 
 public class App {
@@ -21,22 +18,5 @@ public class App {
             System.out.print(i+" ");
         }
     }
-
-
-    public static void recursion(){
-        System.out.println("Starting Head");
-        RecursionTypes.head(4);
-        System.out.println("Starting Tail");
-        RecursionTypes.tail(4);
-
-        Factorial fact = new Factorial();
-        System.out.println(fact.head(12));
-        System.out.println(fact.tail(12,1));
-
-        Fibonacci fib = new Fibonacci();
-        System.out.println(fib.head(10));
-        System.out.println(fib.tail(10,1));
-    }
-
 
 }

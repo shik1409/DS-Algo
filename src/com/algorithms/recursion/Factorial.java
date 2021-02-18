@@ -24,5 +24,10 @@ public class Factorial {
 
         return tail(n-1,n*accumulator);
     }
+
+    //tail(1 , 4*3*2*1)
+    //tail(2 , 4*3*2)
+    //tail(3 , 4*3)
+    //tail(4  , 4) as accum=1 here.
     
 }
